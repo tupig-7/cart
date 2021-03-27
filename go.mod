@@ -1,4 +1,4 @@
-module cart
+module github.com/tupig-7/cart
 
 go 1.15
 
