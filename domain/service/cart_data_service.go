@@ -1,8 +1,8 @@
 package service
 
 import (
-	"cart/domain/model"
-	"cart/domain/repository"
+	"github.com/tupig-7/cart/domain/model"
+	"github.com/tupig-7/cart/domain/repository"
 )
 
 type ICartDataService interface {

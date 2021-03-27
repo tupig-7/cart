@@ -3,7 +3,7 @@ module github.com/tupig-7/cart
 go 1.15
 
 require (
-	github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5 // indirect
+	github.com/HdrHistogram/hdrhistogram-go v1.1.0 // indirect
 	github.com/asim/go-micro/plugins/config/source/consul/v3 v3.0.0-20210317093720-0a41e6d80f39
 	github.com/asim/go-micro/plugins/registry/consul/v3 v3.0.0-20210317093720-0a41e6d80f39
 	github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3 v3.0.0-20210317093720-0a41e6d80f39

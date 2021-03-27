@@ -1,11 +1,6 @@
 package main
 
 import (
-	"cart/common"
-	"cart/domain/repository"
-	service2 "cart/domain/service"
-	"cart/handler"
-	pb "cart/proto"
 	consul "github.com/asim/go-micro/plugins/registry/consul/v3"
 	ratelimit "github.com/asim/go-micro/plugins/wrapper/ratelimiter/uber/v3"
 	opentracing2 "github.com/asim/go-micro/plugins/wrapper/trace/opentracing/v3"
@@ -14,6 +9,11 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/opentracing/opentracing-go"
+	"github.com/tupig-7/cart/common"
+	"github.com/tupig-7/cart/domain/repository"
+	service2 "github.com/tupig-7/cart/domain/service"
+	"github.com/tupig-7/cart/handler"
+	pb "github.com/tupig-7/cart/proto"
 
 	"github.com/micro/micro/v3/service/logger"
 )
