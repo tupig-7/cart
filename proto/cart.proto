@@ -1,8 +1,6 @@
 syntax = "proto3";
 
-package cart;
-
-option go_package = "proto;cart";
+package go.micro.service.cart;
 
 service Cart {
 	rpc AddCart(CartInfo) returns (ResponseAdd){}
